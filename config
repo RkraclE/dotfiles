@@ -197,7 +197,7 @@ bar {
         status_command /usr/bin/bumblebee-status \
 		-m cpu memory battery time \
 		 pasource \
-		-p time.format="%H:%H" \
+		-p time.format="%H:%M" \
 		-t gruvbox-powerline
 	position top
 
