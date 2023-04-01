@@ -2,6 +2,7 @@
 ----------------------------------------------------------
 Pour Arch Linux
 Paquet à installer : 
+
 sudo pacman -S feh git curl wget i3 nemo zsh polybar discord pip3 redshift gnome-control-center gnome-screenshot firefox vim 
 
 ## Installation yay
