@@ -9,6 +9,6 @@ sudo pacman -S feh git curl wget i3 nemo zsh polybar discord pip3 redshift gnome
 
 sudo git clone https://aur.archlinux.org/yay.git
 
-sudo git clone https://aur.archlinux.org/yay.git
+sudo chown -R "user" yay
 
 makepkg -si
