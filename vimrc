@@ -75,6 +75,9 @@ set path+=**
 " Search with nohlsearch
 nnoremap <silent> <C-n> :nohlsearch<CR><C-n>
 
+nnoremap <C-i> :tabn<CR>
+nnoremap <C-p> :tabnew<CR>
+
 """""""""""""""""""""""""""""
 "      PLUGINS
 """""""""""""""""""""""""""""
