@@ -1,5 +1,3 @@
-" For Rust analyzer check this website => https://rust-analyzer.github.io/manual.html
-
 " Misc 
 set undofile
 set backup
