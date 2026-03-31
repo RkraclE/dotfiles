@@ -1,6 +1,18 @@
+## first download that : https://www.ubuntu-fr.org/download/xubuntu
+sudo apt update && sudo apt upgrade -y
+
+## after put regolith linux : 
+sudo add-apt-repository ppa:regolith-linux/release
+sudo apt update
+sudo apt install regolith-desktop
+
+## If regolith working, remove xfce
+sudo apt remove xfce4 xfce4-* lightdm
+sudo apt install gdm3
+sudo reboot
+
 ## BASE INSTALL
 sudo apt update && sudo apt upgrade
-
 sudo apt install -y \
 build-essential \
 curl \
